@@ -40,7 +40,8 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(47, 12);
             this.label1.TabIndex = 0;
-            this.label1.Text = "演習8-2";
+            this.label1.Text = "演習8-3";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // timer1
             // 
@@ -51,7 +52,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.ClientSize = new System.Drawing.Size(497, 390);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
