@@ -25,19 +25,19 @@ namespace move_labels
             label1.Top += vy;
             if (label1.Left <= 0)
             {
-                vx = 10;
+                vx = Math.Abs(vx);
             }
             else if (label1.Top <= 0)
             {
-                vy = 10;
+                vy = Math.Abs(vy);
             }
             else if (label1.Left >= ClientSize.Width - label1.Width)
             {
-                vx = -10;
+                vx = -Math.Abs(vx);
             }
             else if (label1.Top >= ClientSize.Height - label1.Height)
             {
-                vy = -10;
+                vy = -Math.Abs(vy);
             }
         }
 
