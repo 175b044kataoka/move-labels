@@ -31,6 +31,14 @@ namespace move_labels
             {
                 vy = 10;
             }
+            else if (label1.Left >= ClientSize.Width - label1.Width)
+            {
+                vx = -10;
+            }
+            else if (label1.Top >= ClientSize.Height - label1.Height)
+            {
+                vy = -10;
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
